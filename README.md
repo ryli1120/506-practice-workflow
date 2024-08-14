@@ -12,3 +12,8 @@ Else if the BMI is between 25 and 29.9, it will return you are at a overweight.
 Else, it will return you are at a obese .
 
 While testing the funciton with sample variables, the expected output is as follows:
+
+    "Your BMI is 16.72. You are underweight.
+    Your BMI is 22.74. You are at a healthy weight.
+    Your BMI is 28.69. You are at a overweight.
+    Your BMI is 40.35. You are obese."
