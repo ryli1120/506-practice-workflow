@@ -15,8 +15,9 @@ Animals = {
 }
 
 def checkBMI(weight, height):
-  bmi = weight/(height **2)
-
+ 
+  bmi = weight/(height **2)*703
+ 
 if bmi < 18.5:
   return("Your BMI is " + bmi + ". You are underweight.")
 elif 18.5<= bmi < 24.9:
@@ -25,3 +26,8 @@ elif 25 <= bmi 29.9:
   return ("Your BMI is " + bmi + ". You are at a overweight.")
 else:
   return ("Your BMI is " + bmi + ". You are obese.")
+
+
+#Test
+checkBMI(70, 1.75)
+print(result)
