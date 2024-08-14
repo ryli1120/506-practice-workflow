@@ -1,8 +1,6 @@
 import pandas as pd
 import numpy as np
 
-
-
 number = 17
 name = "Ryan"
 
